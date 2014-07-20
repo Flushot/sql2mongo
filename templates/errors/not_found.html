@@ -1,0 +1,12 @@
+{% extends 'layouts/app.html' %}
+{% block content %}
+
+<h1>Not Found</h1>
+
+<p>Congratulations! You found a broken link!</p>
+
+{% if error %}
+<p class="error-details">{{ error }}</p>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,2 @@
+#!/bin/sh
+uwsgi --http :3000 --master --processes 2 --wsgi-file app.py
